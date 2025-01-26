@@ -53,12 +53,17 @@
     background-color: #4caf4f;
     border: none;
     border-radius: 2.78px;
-    padding: 12px 24px;
+    padding: 14px 28px;
     color: white;
     font-size: 0.80rem;
     font-weight: 500;
     display: flex;
     align-items: center;
+}
+
+.nav-menu-button:hover {
+    background-color: #4d4d4d;
+    color: white;
 }
 
 .nav-menu-button p {
@@ -71,16 +76,21 @@
 
 .hero-section {
     width: 100%;
-    height: 337px;
+    height: 400px;
     background-color: #f5f7fa;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 67px 0px;
 }
 
 .hero-section-inner-box {
     width: 80%;
     height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .hero-section-content {
@@ -105,4 +115,34 @@
     font-size: 1.06rem;
     color: #717171;
     margin-top: 1rem;
+}
+
+.hero-section-button {
+    margin-top: 2rem;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 2.78px;
+    padding: 14px 28px;
+    color: white;
+    font-size: 0.98rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-button:hover {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+.hero-section-image {
+    width: 35%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-image img {
+    width: 70%;
 }
