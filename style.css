@@ -121,7 +121,7 @@ button:hover {
     margin-top: 1rem;
 }
 
-.hero-section-button {
+.button {
     margin-top: 2rem;
     background-color: #4caf4f;
     border: none;
@@ -157,7 +157,7 @@ button:hover {
 
 .our-clients {
     width: 100%;
-    height: 133px;
+    height: 155px;
     margin: 40px 0px;
     display: flex;
     justify-content: center;
@@ -165,7 +165,7 @@ button:hover {
 
 .our-clients-inner-box {
     width: 75%;
-    height: 133px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,7 +202,7 @@ button:hover {
 
 .community-management {
     width: 100%;
-    height: 133px;
+    height: 485px;
     margin: 120px 0px 40px;
     display: flex;
     justify-content: center;
@@ -210,7 +210,7 @@ button:hover {
 
 .community-management-inner-box {
     width: 75%;
-    height: 133px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,11 +231,10 @@ button:hover {
 
 .community-management-icon-boxes-outer-box {
     width: 100%;
-    height: 350%;
+    height: 350px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    padding-bottom: 50px;
 }
 
 .community-management-icon-box {
@@ -257,4 +256,55 @@ button:hover {
 .community-management-icon-box img {
     padding: 5px;
     width: 92px;
+}
+
+.unseen-spending {
+    width: 100;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.unseen-spending-inner-box {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.unseen-spending-image {
+    width: 40%;
+}
+
+.unseen-spending-image img {
+    width: 400px;
+}
+
+.unseen-spending-image img:hover {
+    transform: scale(1.05);
+}
+
+.unseen-spending-content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.unseen-spending-content-text {
+    width: 80%;
+}
+
+.unseen-spending-content-text h2 {
+    color: #4d4d4d;
+    font-size: 36px;
+    line-height: 1.35;
+}
+
+.unseen-spending-content-text p {
+    font-size: 1.06rem;
+    color: #717171;
+    margin-top: 1.8rem;
 }
